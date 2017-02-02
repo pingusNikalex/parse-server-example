@@ -20,7 +20,7 @@ var api = new ParseServer({
   liveQuery: {
     classNames: ["Posts", "Comments"] // List of classes to support for query subscriptions
   },
-   push: {
+  push: {
        ios: {
          pfx: '/Certificates.p12',
          passphrase: '', // optional password to your p12/PFX
